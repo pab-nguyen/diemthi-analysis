@@ -7,6 +7,7 @@ a = a.replace('            </td>            <td style="border: 1px solid ; font-
 a = a.replace('            </td>                   </tr>        <tr>            <td style="border: 1px solid">                ','\n')
 a = a.replace('            </td>            <td style="border: 1px solid">                ',',')
 a = a.replace('               </td>        </tr>    </table><br />        <br />          </div>         </body></html><Họ và Tên,Ngày sinh,Điểm thi',"")
+a = a.replace('<',"")
 a = html.unescape(a)
 
 nf = open("sobaodanhnew.txt","w",encoding="UTF-8")
@@ -17,7 +18,7 @@ nf = open('sobaodanhnew.txt',"r",encoding="UTF-8")
 b = nf.readlines()
 c = list()
 
-monhoc = ['Toán:', 'Ngữ văn:', 'Vật lý:', 'Hoá học:', 'Sinh học:', 'Lịch sử:', 'Địa lý:', 'GDCD:', 'KHTN:', 'KHXH:', 'Tiếng Anh:', 'Tiếng Pháp:', 'Tiếng Trung:', 'Tiếng Nhật:', 'Tiếng Đức:','Tiếng Nga:']
+monhoc = ['Toán:', 'Ngữ văn:', 'Vật lí:', 'Hóa học:', 'Sinh học:', 'Lịch sử:', 'Địa lí:', 'GDCD:', 'KHTN:', 'KHXH:', 'Tiếng Anh:', 'Tiếng Pháp:', 'Tiếng Trung:', 'Tiếng Nhật:', 'Tiếng Đức:','Tiếng Nga:']
 c.append(b[0].rstrip("Điểm thi\n") + "Toán,Văn,Lý,Hoá,Sinh,Sử,Địa,GDCD,KHTN,KHXH,TA,TP,TT,TN,TD,TNga\n")
 for i in b[1:]:
     diem = str()

@@ -22,12 +22,28 @@ age = df['Age'].value_counts().rename_axis('age').reset_index(name='counts')
 # plt.bar(age.loc[age["age"]>16].iloc[:,0],age.loc[age["age"]>16].iloc[:,1])
 # df['Age'].value_counts().plot(ax=ax, kind='bar')
 
+print(age.head())
+
 #histogram for people over 19 years old
 n, bins, patches = plt.hist(df.loc[-df["Age"].isin([17,18,19])]["Age"],bins=int(max(age["age"]) - min(age["age"])))
 xticks = [(bins[i+1] + value)/2 for i, value in enumerate(bins[:-1])]
 xticks_labels = ["{:.0f}".format(value) for i, value in enumerate(bins[:-1])]
+plt.xlabel("Age")
+plt.ylabel("Count")
 plt.xticks(xticks, labels = xticks_labels)
 for i, value in enumerate(n):
     if value > 0:
-        plt.text(xticks[i], value+5, int(value), ha='center',fontsize=8)
+        ax.text(xticks[i], value+5, int(value), ha='center',fontsize=8)
+
+
+#subjects
+fig, ax = plt.subplots()
+a = df[df.iloc[:,2:13]>-1].iloc[:,2:13].count().to_frame()
+print(a)
+df[df.iloc[:,2:13]>-1].iloc[:,2:13].count().plot(ax=ax,kind="bar")
+for i, value in enumerate(a[0]):
+    plt.text(i, value+1000, int(value), ha='center',fontsize=8)
+plt.title("Number of exam takers")
+plt.xlabel("Môn học")
+plt.ylabel("Count")
 plt.show()
