@@ -6,8 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55d17eb2-e9b6-43c0-82da-e01de66c7f37" name="Default Changelist" comment="Update .gitignore">
-      <change afterPath="$PROJECT_DIR$/analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/analysis-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/analysis-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="add_unversioned_files" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -122,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610010717509</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="initial commit">
+      <created>1610086748939</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1610086748941</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,38 +202,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1610009809078" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1610077727429">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1610190119952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610077727429" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1610077727429">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610190119952" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1610190119952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610077727429" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1610077727429">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610190119952" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1610190119952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610077727429" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1610077727429">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610190119952" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1610190119952">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610077727429" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610190119952" />
     <state x="481" y="115" key="RollbackChangesDialog" timestamp="1610009810286">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="481" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610009810286" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1610010426383">
+    <state x="277" y="57" key="SettingsEditor" timestamp="1610088101901">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610010426383" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610088101901" />
     <state x="657" y="327" key="VCS.EditChangelistDialog" timestamp="1610009434903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="657" y="327" key="VCS.EditChangelistDialog/0.0.1536.824@0.0.1536.824" timestamp="1610009434903" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610010747929">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610087084483">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610010747929" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610087084483" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1610010426762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
