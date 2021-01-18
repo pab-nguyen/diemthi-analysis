@@ -7,7 +7,9 @@ a = a.replace('            </td>            <td style="border: 1px solid ; font-
 a = a.replace('            </td>                   </tr>        <tr>            <td style="border: 1px solid">                ','\n')
 a = a.replace('            </td>            <td style="border: 1px solid">                ',',')
 a = a.replace('               </td>        </tr>    </table><br />        <br />          </div>         </body></html><Họ và Tên,Ngày sinh,Điểm thi',"")
-a = a.replace('<',"")
+a = a.replace('<Họ và Tên',"fullname")
+a = a.replace('Ngày sinh',"dob")
+
 a = html.unescape(a)
 
 nf = open("sobaodanhnew.txt","w",encoding="UTF-8")

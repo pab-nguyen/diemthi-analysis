@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610700031143</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update">
+      <created>1610726752383</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610726752383</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,22 +248,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1610009809078" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1610726609611">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1610960307207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610726609611" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1610726609611">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610960307207" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1610960307207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610726609611" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1610726609611">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610960307207" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1610960307207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610726609611" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1610726609611">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610960307207" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1610960307207">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610726609611" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610960307207" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1610696119496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -285,10 +292,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="657" y="327" key="VCS.EditChangelistDialog/0.0.1536.824@0.0.1536.824" timestamp="1610009434903" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610700035679">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610726758296">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610700035679" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610726758296" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1610010426762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
