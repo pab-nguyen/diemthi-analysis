@@ -5,12 +5,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="55d17eb2-e9b6-43c0-82da-e01de66c7f37" name="Default Changelist" comment="Update .gitignore">
+    <list default="true" id="55d17eb2-e9b6-43c0-82da-e01de66c7f37" name="Default Changelist" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv_sbd.py" beforeDir="false" afterPath="$PROJECT_DIR$/csv_sbd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sobaodanh.csv" beforeDir="false" afterPath="$PROJECT_DIR$/sobaodanh.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sobaodanhnew.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sobaodanhnew.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610726752383</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update">
+      <created>1610960479302</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610960479302</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,29 +245,30 @@
     <MESSAGE value="initial" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="147" y="65" key="DiffContextDialog" timestamp="1610009809078">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="65" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1610009809078" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1610960307207">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1610966789423">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610960307207" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1610960307207">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610966789423" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1610966789423">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610960307207" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1610960307207">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610966789423" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1610966789423">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610960307207" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1610960307207">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610966789423" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1610966789423">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610960307207" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610966789423" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1610696119496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -284,18 +289,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="481" y="115" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610700025097" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1610088101901">
+    <state x="277" y="57" key="SettingsEditor" timestamp="1610966383758">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610088101901" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610966383758" />
     <state x="657" y="327" key="VCS.EditChangelistDialog" timestamp="1610009434903">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="657" y="327" key="VCS.EditChangelistDialog/0.0.1536.824@0.0.1536.824" timestamp="1610009434903" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610726758296">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1610960481881">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610726758296" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1610960481881" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1610010426762">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

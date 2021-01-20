@@ -3,6 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from datetime import datetime, date, timedelta
 import os
+import seaborn as sns
 
 #extract the file
 os.chdir("C:/Users/nguyen_phan/Downloads/Data Science Projects/diemthi-analysis")
@@ -55,5 +56,12 @@ plt.xlabel("Count")
 plt.title("Top 15 first names")
 
 
+#check out pairs
+sns.pairplot(df.iloc[:,2:9])
+
+
+
+#last name and score
 plt.show()
 
+#
