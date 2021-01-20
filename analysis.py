@@ -57,11 +57,14 @@ plt.title("Top 15 first names")
 
 
 #check out pairs
-sns.pairplot(df.iloc[:,2:9])
+# sns.pairplot(df.iloc[:,2:9])
 
 
 
 #last name and score
+df['meanscore'] = round(df[df.iloc[:,2:13]>-1].mean(axis=1),2)
+fig, ax = plt.subplots()
+
 plt.show()
 
 #
