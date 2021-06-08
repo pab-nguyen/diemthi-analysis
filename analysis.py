@@ -59,12 +59,16 @@ plt.title("Top 15 first names")
 #check out pairs
 # sns.pairplot(df.iloc[:,2:9])
 
-
-
 #last name and score
-df['meanscore'] = round(df[df.iloc[:,2:13]>-1].mean(axis=1),2)
+df['meanscore'] = round(df[df.iloc[:,2:13]>-1].iloc[:,2:13].mean(axis=1),2)
 fig, ax = plt.subplots()
+df.groupby(by=['lastname'])['meanscore'].mean().nlargest(15).plot(kind='barh').invert_yaxis()
 
+#pair
+sns.pairplot(df.iloc[:,[2,4,5,6]])
+plt.figure()
+
+df2 = df.drop(df.iloc[:,14:17],axis=1)
+sns.heatmap(df2[df2.iloc[:,2:15]>-1].corr(), annot=True)
 plt.show()
-
 #
