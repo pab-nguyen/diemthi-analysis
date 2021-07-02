@@ -41,7 +41,7 @@ After scrapping process, we need to clean the file so that it allows us to see t
 
 ![image](https://user-images.githubusercontent.com/72576730/124316580-cdfaf580-db43-11eb-9e4c-39d9d1f68e32.png)
 
-# Data Visualization
+# Data Visualization  
 <script type="text/javascript">
         function initViz() {
             var containerDiv = document.getElementById("vizContainer"),
@@ -56,10 +56,11 @@ After scrapping process, we need to clean the file so that it allows us to see t
             var viz = new tableau.Viz(containerDiv, url, options);
             // Create a viz object and embed it in the container div.
         }
-   </script>
+</script>  
 
-<body onload="initViz();">
+
+<body onload="initViz();">  
     <div id="vizContainer" style="width:800px; height:700px;"></div>
-</body>
+</body>  
 
 
