@@ -44,12 +44,11 @@ After scrapping process, we need to clean the file so that it allows us to see t
 # Data Visualization
 <!-- JS file to enable the JavaScript API. You can point at the
   version on public.tableau.com, online.tableau.com, or your on-prem Server -->
-<script src="https://github.com/pab-nguyen/diemthi-analysis/blob/master/tableau.js">
-initviz()
-</script>
-
+<script src="https://github.com/pab-nguyen/diemthi-analysis/blob/master/tableau.js"></script>
+...
 <!-- Empty div where the viz will be placed -->
 <div id="tableauViz"></div>
+
 
 
 
