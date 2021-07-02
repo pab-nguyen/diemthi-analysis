@@ -43,4 +43,6 @@ After scrapping process, we need to clean the file so that it allows us to see t
 
 # Data Visualization
 
+<body>
 <iframe src="https://public.tableau.com/views/VietnamCollegeEntranceExamScore2020/Dashboard1?:embed=true&amp;:showVizHome=no" height="755" width="1085"></iframe>
+</body>
