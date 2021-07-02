@@ -7,4 +7,31 @@ I was interested to see the results of the students. In this project, I scraped 
 
 # Data Collection  
 The data collection method for this project will be web scraping.  
-The website to scrape from is called http://diemthi.hcm.edu.vn/Home. This website is inactive now, but it looks like this.  
+The website to scrape from is called http://diemthi.hcm.edu.vn/Home. This website is inactive now, but it looks like this.   
+
+![image](https://user-images.githubusercontent.com/72576730/124315197-98550d00-db41-11eb-90cb-c2b13fd80d8d.png)
+
+The form on the landing page allows user to put in the ID number of the candidate, which after hitting Enter will return their exam results  
+
+![image](https://user-images.githubusercontent.com/72576730/124315283-bcb0e980-db41-11eb-8891-1eb59c6fdc54.png)
+
+The exam results are stored as a table in html form. After researching, I found that the ID numbers range from 02000001 to 02074719.
+I created a little code snippet that iterate through the number above, go to this website, input that number in, then copy the html of the results pages, and store it into the sobaodanh.txt file. The code is in crawlsbd.py.    
+
+```
+ import subprocess
+result = subprocess.check_output('curl -F "sobaodanh=02000145" diemthi.hcm.edu.vn/Home/Show')
+print(result)
+
+f = open("sobaodanh.txt","r+")
+f.truncate(0)
+f.close()
+
+for i in range(2000001,2074719):
+    with open("sobaodanh.txt","a") as f:
+        subprocess.run('curl -F "sobaodanh=0'+str(i)+'" diemthi.hcm.edu.vn/Home/Show,stdout=f)
+        f.close()
+        print(i-2000000)
+```
+  
+ 
