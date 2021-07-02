@@ -6,3 +6,5 @@ In Vietnam, high school graduates need to take a standardized college entrance e
 I was interested to see the results of the students. In this project, I scraped 74,000 exam takers scores in 2020 from the official Government website, analyzed it then visualized in with Tableau to give the audience insights on this exam.  
 
 # Data Collection  
+The data collection method for this project will be web scraping.  
+The website to scrape from is called http://diemthi.hcm.edu.vn/Home. This website is inactive now, but it looks like this.  
