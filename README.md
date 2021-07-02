@@ -41,7 +41,9 @@ After scrapping process, we need to clean the file so that it allows us to see t
 
 ![image](https://user-images.githubusercontent.com/72576730/124316580-cdfaf580-db43-11eb-9e4c-39d9d1f68e32.png)
 
-# Data Visualization  
+# Data Visualization
+<script type="text/javascript"
+	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
 <script type="text/javascript">
         function initViz() {
             var containerDiv = document.getElementById("vizContainer"),
