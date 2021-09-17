@@ -42,28 +42,4 @@ After scrapping process, we need to clean the file so that it allows us to see t
 ![image](https://user-images.githubusercontent.com/72576730/124316580-cdfaf580-db43-11eb-9e4c-39d9d1f68e32.png)
 
 # Data Visualization
-<script type="text/javascript" src="/tableau.js"></script>
-<script type="text/javascript">
-        function initViz() {
-            var containerDiv = document.getElementById("vizContainer"),
-                url = "https://public.tableau.com/views/VietnamCollegeEntranceExamScore2020/Dashboard1?:embed=true&:showVizHome=no",
-                options = {
-                    hideTabs: true,
-                    onFirstInteractive: function () {
-                        console.log("Run this code when the viz has finished loading.");
-                    }
-                };
-
-            var viz = new tableau.Viz(containerDiv, url, options);
-            // Create a viz object and embed it in the container div.
-        }
-</script>  
-
-
-<body onload="initViz();">  
-    <div id="vizContainer" style="width:800px; height:700px;"></div>
-</body>  
-
-<figure class="video_container">
-	<iframe src="https://public.tableau.com/views/VietnamCollegeEntranceExamScore2020/Dashboard1?:embed=true&:showVizHome=no" height="755" width="1085"></iframe>
-</figure>
+https://public.tableau.com/views/VietnamCollegeEntranceExamScore2020/Dashboard1
